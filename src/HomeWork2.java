@@ -8,11 +8,11 @@ public class HomeWork2 {
         System.out.println(BooleanPositiveNegative(7));
         int i = 1;
         for (i=1;i<=3;i++);
-        Word("я могу", 1);
+        Word("я могу", 4);
     }
 
-    private static void Word(String я_могу, int i) {
-        for (i=1;i<=3;i++) {
+    private static void Word(String я_могу, int count) {
+        for (int i = 0; i < count; i++) {
             System.out.println("Задание 4" + "я могу");
         }
 
@@ -20,9 +20,7 @@ public class HomeWork2 {
 
     public static boolean BooleanPositiveNegative(int a) {
         System.out.println("Задание 3");
-        if (a < 0){ return true;
-        }
-        return false;
+        return (a < 0);
     }
 
 
